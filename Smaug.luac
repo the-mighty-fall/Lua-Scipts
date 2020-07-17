@@ -1,0 +1,31 @@
+removePreference("num")
+dialogInit()
+addTextView("Number of hits")
+addEditNumber("num", 100)
+newRow()
+dialogShow("Settings")
+
+for i = 1, num do
+
+    click(Location(908, 1065))
+    wait(0.55)
+    click(Location(873, 1759))
+    wait(1)
+    click(Location(462, 425))
+    wait(0.05)
+    click(Location(770, 1720))
+    wait(0.05)
+    click(Location(770, 1720))
+    wait(0.05)
+    click(Location(790, 1720))
+    wait(0.74)
+    click(Location(596, 1326))
+    wait(2.9)
+    click(Location(590, 1320))
+    wait(.64)
+    click(Location(810, 1740))
+    wait(2.4)
+    click(Location(644, 1560))
+    wait(1.8)
+
+end
